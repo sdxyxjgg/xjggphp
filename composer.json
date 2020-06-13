@@ -1,0 +1,23 @@
+{
+    "name": "sdxyxjgg/xjggphp",
+    "description": "xjggphp  v1.0.1",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "xjgg",
+            "email": "3250403060@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "files": [
+            "core/functions.php"
+        ],
+        "psr-4": {
+            "core\\":"core",
+            "web\\":"web"
+        }
+    }
+}
